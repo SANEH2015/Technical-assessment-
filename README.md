@@ -27,7 +27,9 @@ Tourly is a React-based application that provides weather forecasts for a specif
 
 
 2.   **Install dependencies**:
+   
    npm install
 
 3. **Run the development server**
+
    npm start
