@@ -6,8 +6,6 @@ import { FaXTwitter } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 
 
-
-
 const Footer = () => {
   return (
    <>
@@ -25,11 +23,11 @@ const Footer = () => {
     <div style={{display:"flex"}}>
     <IoCall/><p>call us at :</p>
     </div>
-    <h5>987654321</h5>
+    <h5>+27 62 700 4608</h5>
     </div>
     <div>
-    <Link className='myapp' to="explorenorthindia">North India</Link><br/>
-    <Link className='myapp' to="exploresouthindia">South India</Link><br/>
+    <Link className='myapp' to="explorenorthindia">South Africa</Link><br/>
+   
     <Link className='myapp' to="about">About Tourly</Link><br/>
     </div>
     <div>
@@ -41,7 +39,7 @@ const Footer = () => {
         <img src="https://tourly.pt/static/media/payment-methods.14097047.svg" alt="" />
     </div>
    </div>
-   <p style={{textAlign:"center"}}>© Tourly 2024 | <span style={{color:"#1D98AD"}}>Build By Elgoritmo</span>| Credits</p>
+   <p style={{textAlign:"center"}}>© Tourly 2025 | <span style={{color:"#1D98AD"}}>Built by Alungile Mbuthuma & Sanele Mkhize</span>| Credits</p>
    </>
   )
 }

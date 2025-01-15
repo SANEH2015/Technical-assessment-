@@ -3,6 +3,7 @@ import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import WaterVideo from '../Assets/WaterVideo.mp4';
 import axios from 'axios';
+import Footer from './Footer';
 
 const Home = () => {
   const [destination, setDestination] = useState('');
@@ -101,7 +102,7 @@ const Home = () => {
         <div className='homediv'>
           <div className='homecontent container' style={{ background: 'none' }}>
             <div className='textdiv'>
-              <span className='smalltext' style={{ color: "black" }}>Our Packages : </span>
+              <span className='smalltext' style={{ color: "black" }}>Weather Forecast & Activities : </span>
               <h1 className='hometitle'>Search Your Destination...</h1>
             </div>
             <div className="cardDiv grid w-50" style={{ backgroundColor: '#d2ffff' }}>
@@ -168,6 +169,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

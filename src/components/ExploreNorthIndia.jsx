@@ -19,7 +19,7 @@ const ExploreNorthIndia = () => {
     <>
       <div className='bg-img'>
         <h1>South Africa  Travel Guide</h1><br />
-        <p>Ostensibly whimsical wandering lead the travellers to the northern destinations of India where there exists copious Himalayan Mountains, offbeat places, pilgrimage sites, famous cities and age-old sandstone creations. The places in this northern region can astound you by their cultural extravaganza, architectural marvels and local cuisine, all so different from each other yet sharing the same region.</p>
+        <p>Places to visit in South Africa in all our Provinces!</p>
       </div>
       <div>
         <div style={{ display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
@@ -31,9 +31,9 @@ const ExploreNorthIndia = () => {
                 <h5 style={{ margin: "12px", fontSize: "14px" }}>95 Ratings</h5>
               </Card.Title>
               <Card.Text>
-                Weekend Getaway to Alibaug from Pune.
-                <p style={{ textDecoration: "line-through" }}>Rs.20000.00</p>
-                <h5>Rs.17,500</h5>
+                The warmest place to be!
+             
+                <h5>Durban</h5>
               </Card.Text>
               <Button variant="primary" style={{ backgroundColor: "orangered", border: "none" }} onClick={handleShow}>Send Enquiry</Button>
               <Modal show={show} onHide={handleClose}>

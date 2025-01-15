@@ -23,9 +23,8 @@ const Navigation = () => {
              navbarScroll>
             <NavLink className='mylink' to="home">Home</NavLink>
             <NavLink className='mylink' to="about">About</NavLink>
-            <NavDropdown title="Destination" id="navbarScrollingDropdown">
-              <Link className='mylink' style={{marginLeft:"35px",color:"black"}} to="explorenorthindia">North India</Link><br/>
-              <Link className='mylink' style={{marginLeft:"35px",color:"black"}} to="exploresouthindia">South india</Link>
+            <NavDropdown title="Activities" id="navbarScrollingDropdown">
+              <Link className='mylink' style={{marginLeft:"35px",color:"black"}} to="explorenorthindia">Favorites</Link><br/>
               </NavDropdown>
             <NavLink className='mylink' to="blog" >Client Testimonals</NavLink>
             <NavLink className='mylink' to="contact" > Contact</NavLink>
