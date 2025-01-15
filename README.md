@@ -1,4 +1,4 @@
-
+<img src="https://socialify.git.ci/SANEH2015/Technical-assessment-/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Technical-assessment-" width="640" height="320" />
 <h1>Tourly Travel Planner </h1>
 
 Tourly is a React-based application that provides weather forecasts for a specified destination and suggests activities based on the weather conditions. Users can also save their favorite activities for easy reference.
